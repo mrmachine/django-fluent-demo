@@ -1,0 +1,32 @@
+django<1.6
+# django-fluent-blogs
+# django-fluent-contents[code,disquscommentsarea,formdesignerlink,markup,oembeditem,text,twitterfeed]
+# django-fluent-dashboard
+# django-fluent-pages
+pytz
+south
+
+# fluent-blogs, optional.
+django-taggit
+# django-taggit-autocomplete-modified>=0.1.0b4
+
+# fluent-dashboard, optional.
+dashboardmods
+django-admin-tools
+django-admin-tools-stats
+django-admin-user-stats
+
+# Editable core dependencies.
+# -e git+ssh://git@github.com/alex/django-taggit.git@master#egg=django-taggit
+# -e git+ssh://git@github.com/django/django.git@stable/1.6.x#egg=django
+-e git+ssh://git@github.com/edoburu/django-fluent-blogs.git@master#egg=django-fluent-blogs
+-e git+ssh://git@github.com/edoburu/django-fluent-contents.git@master#egg=django-fluent-contents[code,disquscommentsarea,formdesignerlink,markup,oembeditem,text,twitterfeed]
+-e git+ssh://git@github.com/mrmachine/django-fluent-dashboard.git@master#egg=django-fluent-dashboard
+-e git+ssh://git@github.com/edoburu/django-fluent-pages.git@master#egg=django-fluent-pages
+-e git+ssh://git@github.com/mrmachine/django-taggit-autocomplete-modified.git@master#egg=django-taggit-autocomplete-modified
+
+# Editable implicit dependencies.
+-e git+ssh://git@github.com/chrisglass/django_polymorphic.git@master#egg=django-polymorphic
+-e git+ssh://git@github.com/edoburu/django-parler.git@master#egg=django-parler
+-e git+ssh://git@github.com/edoburu/django-polymorphic-tree.git@master#egg=django-polymorphic-tree
+-e git+ssh://git@github.com/mrmachine/django-form-designer.git@master#egg=django-form-designer
