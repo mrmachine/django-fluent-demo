@@ -1,0 +1,6 @@
+# Include core requirements.
+-r requirements.txt
+
+# Development tools.
+ipdb
+ipython
